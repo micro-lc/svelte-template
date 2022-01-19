@@ -11,8 +11,8 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit sveltejs/template mia_template_service_name_placeholder
+cd mia_template_service_name_placeholder
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -23,7 +23,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd mia_template_service_name_placeholder
 npm install
 ```
 
