@@ -7,7 +7,8 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "lint": "eslint src --ext .js,.svelte",
-    "test": ""
+    "test": "",
+    "coverage": ""
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.0",
