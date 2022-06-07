@@ -20,14 +20,13 @@
     ],
     "overrides": [
         {
-            "files": [
-                "**/*.svelte"
-            ],
+            "files": ["**/*.svelte"],
             "processor": "svelte3/svelte3"
         }
     ],
     "rules": {
         "no-console": 2,
+        "no-multiple-empty-lines": 0,
         "no-unused-vars": 2,
         "object-curly-spacing": [
             2,
