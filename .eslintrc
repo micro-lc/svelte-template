@@ -1,0 +1,42 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": [
+        "standard",
+        "eslint:recommended"
+    ],
+    "plugins": [
+        "svelte3"
+    ],
+    "ignorePatterns": [
+        "public/build/"
+    ],
+    "overrides": [
+        {
+            "files": [
+                "**/*.svelte"
+            ],
+            "processor": "svelte3/svelte3"
+        }
+    ],
+    "rules": {
+        "no-console": 2,
+        "no-unused-vars": 2,
+        "object-curly-spacing": [
+            2,
+            "never"
+        ],
+        "operator-linebreak": [
+            2,
+            "after"
+        ]
+    },
+    "settings": {}
+}
